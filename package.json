@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.204",
+    "gatsby-link": "^1.6.37",
+    "gatsby-plugin-postcss-sass": "^1.0.17",
+    "gatsby-plugin-preact": "^1.0.16"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "gatsby": "gatsby",
+    "build": "gatsby build && npm run beautify:html",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "beautify:html": "js-beautify --replace public/*.html"
+  },
+  "devDependencies": {
+    "js-beautify": "^1.7.5",
+    "prettier": "^1.10.2"
+  }
+}
